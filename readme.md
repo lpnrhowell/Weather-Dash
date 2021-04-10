@@ -1,4 +1,4 @@
-# Weather-Dashboard
+# Weather Dashboard
 ### Description
 Weather-Dashboard is an application to find a weather condition of a given city both the current and 5-Days forecast at the same time.
 The server-side API used to get response data object is retrieved from the Open Weather APi.
@@ -20,14 +20,18 @@ The 5-days weather forecast also displays below the current weather conditions s
 The local storage is used here to store the previous search city and display them to the user in the left side of the page under the list group. The user can also clear the search history by clicking the clear history button.
 If the user wants to see the past search city weather condition again, just click the list group item cities under the clear history button.
 
-Check out live site [WeatherDashboard]()
+Check out live site [https://lpnrhowell.github.io/Weather-Dash/](https://lpnrhowell.github.io/Weather-Dash/)
 
 
-### Screenshots:
-1. Run file index.html
+## Screenshots:
 
-![Capture]()
+### 1. Run file index.html
 
-2. Enter any city
+![intial](/assets/initialScreen.png)
 
-![Capt1ure]()# Weather-Dash
+### 2. Enter any city
+
+![firstSearch](/assets/firstSearch.png)
+
+### 3. View History
+![history](/assets/history.png)
