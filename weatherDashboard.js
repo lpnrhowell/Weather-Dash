@@ -163,6 +163,11 @@ function clearHistory(event){
 }
 //Click Handlers
 $("#search-button").on("click",displayWeather);
+$("#search-city").keyup(function(event) {
+    if (event.keyCode === 13) {
+        $("#search-button").click();
+    }
+});
 $(document).on("click",invokePastSearch);
 $(window).on("load",loadlastCity);
 $("#clear-history").on("click",clearHistory);
